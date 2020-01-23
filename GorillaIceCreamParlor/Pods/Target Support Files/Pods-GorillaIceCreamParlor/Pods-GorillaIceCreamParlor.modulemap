@@ -1,0 +1,6 @@
+framework module Pods_GorillaIceCreamParlor {
+  umbrella header "Pods-GorillaIceCreamParlor-umbrella.h"
+
+  export *
+  module * { export * }
+}
