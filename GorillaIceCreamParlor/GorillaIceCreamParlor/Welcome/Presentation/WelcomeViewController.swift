@@ -39,6 +39,7 @@ final class WelcomeViewController: UIViewController, NVActivityIndicatorViewable
     
     private func setupView() {
         self.navigationItem.title = "Welcome"
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         self.navigationController?.navigationBar.barTintColor = UIColor.from(hex: "#7FD0D3")
         updateButtonText()
     }
